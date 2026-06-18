@@ -32,8 +32,8 @@ export function Hero() {
           >
             Un método paso a paso pensado para mujeres emprendedoras que quieren aprender desde casa sin experiencia previa.
           </p>
-          <div className="mt-6 flex flex-wrap gap-3" style={{ fontFamily: "var(--font-body)" }}>
-            {["✅ Acceso inmediato", "🎓 Certificado incluido", "🔒 Garantía 7 días"].map((t) => (
+          <div className="mt-6 grid grid-cols-2 gap-3 md:flex md:flex-wrap" style={{ fontFamily: "var(--font-body)" }}>
+            {["✅ Acceso inmediato", "🎓 Certificado incluido", "🔒 Garantía 7 días", "👩‍🎓 +500 alumnas"].map((t) => (
               <span
                 key={t}
                 className="rounded-full bg-white/80 px-4 py-2 text-sm font-semibold"
