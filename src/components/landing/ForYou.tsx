@@ -29,13 +29,13 @@ export function ForYou() {
             className="inline-block rounded-full px-4 py-2 text-xs font-bold"
             style={{ background: "var(--rosa-pastel)", color: "var(--texto-dark)", fontFamily: "var(--font-body)" }}
           >
-            ✨ Diseñado para ti si...
+            ✨ ESTO ES TODO LO QUE LOGRARAS JUNTO A NOSOTROS...
           </span>
           <h2
             className="mt-4 text-3xl md:text-4xl"
             style={{ fontFamily: "var(--font-display)", color: "var(--texto-dark)", fontWeight: 700 }}
           >
-            Este curso es para ti si deseas...
+            <br />
           </h2>
           <ul className="mt-6 space-y-4" style={{ fontFamily: "var(--font-body)" }}>
             {items.map((t) => (
