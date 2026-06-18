@@ -62,6 +62,26 @@
 }
 
 :root {
+  /* Jabonería Artesanal landing tokens */
+  --bg-primary: #FFFBF8;
+  --bg-lavanda: #FAF7FF;
+  --bg-celeste: #F0F8FC;
+  --rosa-pastel: #F8C8DC;
+  --rosa-medio: #F47FB1;
+  --morado-pastel: #D9C5F2;
+  --morado-medio: #B98FE0;
+  --celeste-pastel: #C7E8F3;
+  --celeste-medio: #6BBFD8;
+  --texto-dark: #3D3454;
+  --texto-mid: #7A6F8A;
+  --cta-gradient: linear-gradient(135deg, #F47FB1, #B98FE0);
+  --card-shadow: 0 8px 32px rgba(185, 143, 224, 0.15);
+  --glow-cta: 0 0 28px rgba(244, 127, 177, 0.45);
+  --font-display: "Quicksand", system-ui, sans-serif;
+  --font-body: "Nunito", system-ui, sans-serif;
+}
+
+:root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
