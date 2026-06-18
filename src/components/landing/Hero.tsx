@@ -24,7 +24,7 @@ export function Hero() {
             className="mt-5 text-4xl leading-tight md:text-[3.5rem] md:leading-[1.1]"
             style={{ fontFamily: "var(--font-display)", color: "var(--texto-dark)", fontWeight: 700 }}
           >
-            En 21 días aprenderás a transformar tu creatividad en jabones que venden y un negocio que te da libertad. 💰🧼
+            En 21 días aprenderás a transformar tu creatividad en jabones que venden y un negocio que te da libertad 💰🧼
           </h1>
           <p
             className="mt-5 text-lg"
