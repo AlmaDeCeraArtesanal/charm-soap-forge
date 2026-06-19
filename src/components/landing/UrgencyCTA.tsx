@@ -7,7 +7,7 @@ export function UrgencyCTA() {
       className="py-16"
       style={{
         background:
-          "linear-gradient(135deg, rgba(244,127,177,0.15), rgba(185,143,224,0.15)), var(--bg-lavanda)",
+          "linear-gradient(135deg, rgba(255,230,80,0.35), rgba(100,195,235,0.25)), #FFFDE7",
         borderTop: "1px solid var(--rosa-pastel)",
         borderBottom: "1px solid var(--rosa-pastel)",
       }}
