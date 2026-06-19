@@ -64,7 +64,7 @@
 :root {
   /* Jabonería Artesanal landing tokens — paleta limpia celeste/amarillo/azul */
   --bg-primary: #F9FDFF;
-  --bg-lavanda: #FFFDF0;
+  --bg-lavanda: #FFFDE7;
   --bg-celeste: #E8F6FD;
   --rosa-pastel: #FFF5C2;
   --rosa-medio: #F5C842;
@@ -79,6 +79,11 @@
   --glow-cta: 0 0 28px rgba(245, 200, 66, 0.50);
   --font-display: "Quicksand", system-ui, sans-serif;
   --font-body: "Nunito", system-ui, sans-serif;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.6); opacity: 0; }
 }
 
 :root {
