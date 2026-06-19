@@ -7,7 +7,7 @@ export function Hero() {
     <section
       id="inicio"
       className="relative overflow-hidden"
-      style={{ background: "linear-gradient(135deg, #FFF0F6 0%, #F3ECFF 50%, #EAF7FD 100%)" }}
+      style={{ background: "linear-gradient(135deg, #FFFDF0 0%, #E8F6FD 50%, #D6F0FB 100%)" }}
     >
       <Blob color="var(--rosa-pastel)" size={420} className="-left-24 -top-24" />
       <Blob color="var(--morado-pastel)" size={460} className="-right-24 bottom-0" />
@@ -66,16 +66,6 @@ export function Hero() {
             className="relative -mt-6 ml-6 -rotate-3 rounded-[20px]"
             style={{ boxShadow: "var(--card-shadow)" }}
           />
-          <div
-            className="absolute -bottom-4 -left-4 flex items-center gap-2 rounded-2xl bg-white px-4 py-3"
-            style={{ boxShadow: "0 12px 30px rgba(244,127,177,0.35)", fontFamily: "var(--font-body)" }}
-          >
-            <span className="text-xl">⭐</span>
-            <div>
-              <div className="text-sm font-bold" style={{ color: "var(--texto-dark)" }}>4.9 / 5</div>
-              <div className="text-xs" style={{ color: "var(--texto-mid)" }}>+500 alumnas</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
