@@ -7,10 +7,10 @@ export function Hero() {
     <section
       id="inicio"
       className="relative overflow-hidden"
-      style={{ background: "linear-gradient(135deg, #FFFDF0 0%, #E8F6FD 50%, #D6F0FB 100%)" }}
+      style={{ background: "linear-gradient(135deg, #FFFDE7 0%, #E8F6FD 50%, #D6F0FB 100%)" }}
     >
-      <Blob color="var(--rosa-pastel)" size={420} className="-left-24 -top-24" />
-      <Blob color="var(--morado-pastel)" size={460} className="-right-24 bottom-0" />
+      <Blob color="rgba(255, 236, 100, 0.45)" size={420} className="-left-24 -top-24" />
+      <Blob color="rgba(100, 195, 235, 0.40)" size={460} className="-right-24 bottom-0" />
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 md:grid-cols-2 md:py-28">
         <div>
