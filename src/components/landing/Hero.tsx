@@ -66,16 +66,6 @@ export function Hero() {
             className="relative -mt-6 ml-6 -rotate-3 rounded-[20px]"
             style={{ boxShadow: "var(--card-shadow)" }}
           />
-          <div
-            className="absolute -bottom-4 -left-4 flex items-center gap-2 rounded-2xl bg-white px-4 py-3"
-            style={{ boxShadow: "0 12px 30px rgba(244,127,177,0.35)", fontFamily: "var(--font-body)" }}
-          >
-            <span className="text-xl">⭐</span>
-            <div>
-              <div className="text-sm font-bold" style={{ color: "var(--texto-dark)" }}>4.9 / 5</div>
-              <div className="text-xs" style={{ color: "var(--texto-mid)" }}>+500 alumnas</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
