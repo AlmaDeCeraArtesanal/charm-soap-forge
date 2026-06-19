@@ -7,7 +7,7 @@ export function Hero() {
     <section
       id="inicio"
       className="relative overflow-hidden"
-      style={{ background: "linear-gradient(135deg, #FFF0F6 0%, #F3ECFF 50%, #EAF7FD 100%)" }}
+      style={{ background: "linear-gradient(135deg, #FFFDF0 0%, #E8F6FD 50%, #D6F0FB 100%)" }}
     >
       <Blob color="var(--rosa-pastel)" size={420} className="-left-24 -top-24" />
       <Blob color="var(--morado-pastel)" size={460} className="-right-24 bottom-0" />
