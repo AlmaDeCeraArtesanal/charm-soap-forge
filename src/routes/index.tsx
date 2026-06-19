@@ -46,6 +46,7 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
+        <VSL />
         <NarrativeIntro />
         <ForYou />
         <CourseContent />
