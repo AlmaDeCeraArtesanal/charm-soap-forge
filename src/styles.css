@@ -62,21 +62,21 @@
 }
 
 :root {
-  /* Jabonería Artesanal landing tokens — paleta celeste/amarillo/azul */
-  --bg-primary: #FBFDFF;
-  --bg-lavanda: #FFFCF2;
-  --bg-celeste: #EAF6FD;
-  --rosa-pastel: #FFF1B8;
-  --rosa-medio: #F4C84F;
-  --morado-pastel: #BFE3F7;
-  --morado-medio: #4FA8D8;
-  --celeste-pastel: #CDE9FF;
-  --celeste-medio: #2E86C1;
-  --texto-dark: #1F3B4D;
-  --texto-mid: #5C7A8A;
-  --cta-gradient: linear-gradient(135deg, #4FA8D8, #2E86C1);
-  --card-shadow: 0 8px 32px rgba(79, 168, 216, 0.15);
-  --glow-cta: 0 0 28px rgba(79, 168, 216, 0.45);
+  /* Jabonería Artesanal landing tokens — paleta limpia celeste/amarillo/azul */
+  --bg-primary: #F9FDFF;
+  --bg-lavanda: #FFFDF0;
+  --bg-celeste: #E8F6FD;
+  --rosa-pastel: #FFF5C2;
+  --rosa-medio: #F5C842;
+  --morado-pastel: #C9E8F8;
+  --morado-medio: #3A9DC8;
+  --celeste-pastel: #D6F0FB;
+  --celeste-medio: #1A7BAF;
+  --texto-dark: #0F2D3D;
+  --texto-mid: #4A7A92;
+  --cta-gradient: linear-gradient(135deg, #F5C842, #3A9DC8);
+  --card-shadow: 0 8px 32px rgba(58, 157, 200, 0.13);
+  --glow-cta: 0 0 28px rgba(245, 200, 66, 0.50);
   --font-display: "Quicksand", system-ui, sans-serif;
   --font-body: "Nunito", system-ui, sans-serif;
 }
