@@ -6,10 +6,10 @@ export function FinalCTA() {
   return (
     <section
       className="relative overflow-hidden py-24"
-      style={{ background: "linear-gradient(135deg, #FFF0F6 0%, #EDE6FF 50%, #E6F6FC 100%)" }}
+      style={{ background: "linear-gradient(135deg, #FFFDE7 0%, #E8F6FD 50%, #C9E8F8 100%)" }}
     >
-      <Blob color="var(--rosa-pastel)" size={420} className="-left-20 -top-20" />
-      <Blob color="var(--celeste-pastel)" size={460} className="-right-24 -bottom-24" />
+      <Blob color="rgba(255, 236, 100, 0.45)" size={420} className="-left-20 -top-20" />
+      <Blob color="rgba(100, 195, 235, 0.40)" size={460} className="-right-24 -bottom-24" />
       <SectionReveal className="relative mx-auto max-w-3xl px-5 text-center">
         <h2
           className="text-3xl md:text-5xl"
