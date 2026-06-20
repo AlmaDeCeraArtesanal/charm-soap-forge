@@ -32,7 +32,10 @@ export function PriceBanner() {
           />
         </div>
         <div className="mt-10">
-          <CTAButton size="xl">COMIENZA AHORA — HAZ CLIC AQUÍ</CTAButton>
+          <CTAButton size="xl">
+            ¡COMIENZA AHORA!<br />
+            HAZ CLIC AQUÍ
+          </CTAButton>
         </div>
       </SectionReveal>
     </section>
