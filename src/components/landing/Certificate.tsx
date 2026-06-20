@@ -12,17 +12,26 @@ const checks = [
 export function Certificate() {
   return (
     <section className="py-20 md:py-24" style={{ background: "var(--bg-celeste)" }}>
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 md:grid-cols-2">
-        <SectionReveal>
-          <img
-            src={IMG.certificado}
-            alt="Certificado de finalización"
-            loading="lazy"
-            className="w-full rounded-[20px]"
-            style={{ boxShadow: "var(--card-shadow)" }}
-          />
+      <div className="mx-auto max-w-7xl px-5">
+        <SectionReveal className="text-center">
+          <span
+            className="inline-block rounded-full px-4 py-2 text-xs font-bold"
+            style={{ background: "var(--celeste-pastel)", color: "var(--texto-dark)", fontFamily: "var(--font-body)" }}
+          >
+            🏆 Reconocimiento oficial
+          </span>
         </SectionReveal>
-        <SectionReveal>
+        <div className="mt-10 grid items-center gap-12 md:grid-cols-2">
+          <SectionReveal>
+            <img
+              src={IMG.certificado}
+              alt="Certificado de finalización"
+              loading="lazy"
+              className="w-full rounded-[20px]"
+              style={{ boxShadow: "var(--card-shadow)" }}
+            />
+          </SectionReveal>
+          <SectionReveal>
           <span
             className="inline-block rounded-full px-4 py-2 text-xs font-bold"
             style={{ background: "var(--celeste-pastel)", color: "var(--texto-dark)", fontFamily: "var(--font-body)" }}
