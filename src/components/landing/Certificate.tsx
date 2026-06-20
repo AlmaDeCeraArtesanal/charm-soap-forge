@@ -54,6 +54,7 @@ export function Certificate() {
           </ul>
         </SectionReveal>
       </div>
+    </div>
     </section>
   );
 }
