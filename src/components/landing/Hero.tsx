@@ -12,7 +12,7 @@ export function Hero() {
       <Blob color="rgba(255, 236, 100, 0.45)" size={420} className="-left-24 -top-24" />
       <Blob color="rgba(100, 195, 235, 0.40)" size={460} className="-right-24 bottom-0" />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 md:grid-cols-2 md:py-28">
+      <div className="relative mx-auto max-w-3xl px-5 py-14 md:py-20 text-center">
         <div>
           <span
             className="inline-block animate-pulse rounded-full px-4 py-2 text-xs font-bold text-white"
@@ -32,7 +32,7 @@ export function Hero() {
           >
             Un método paso a paso pensado para mujeres emprendedoras que quieren aprender desde casa sin experiencia previa.
           </p>
-          <div className="mt-6 grid grid-cols-2 gap-3 md:flex md:flex-wrap" style={{ fontFamily: "var(--font-body)" }}>
+          <div className="mt-6 flex flex-wrap justify-center gap-3" style={{ fontFamily: "var(--font-body)" }}>
             {["✅ Acceso inmediato", "🎓 Certificado incluido", "🔒 Garantía 7 días", "👩‍🎓 +500 alumnas"].map((t) => (
               <span
                 key={t}
@@ -49,23 +49,6 @@ export function Hero() {
           <p className="mt-3 text-sm" style={{ color: "var(--texto-mid)", fontFamily: "var(--font-body)" }}>
             Pago único · Sin mensualidades · Acceso de por vida
           </p>
-        </div>
-
-        <div className="relative">
-          <img
-            src={IMG.hero1}
-            alt="Jabones artesanales hechos a mano"
-            loading="lazy"
-            className="rotate-[3deg] rounded-[20px]"
-            style={{ boxShadow: "var(--card-shadow)" }}
-          />
-          <img
-            src={IMG.hero2}
-            alt="Mockup del curso de jabonería artesanal"
-            loading="lazy"
-            className="relative -mt-6 ml-6 -rotate-3 rounded-[20px]"
-            style={{ boxShadow: "var(--card-shadow)" }}
-          />
         </div>
       </div>
     </section>
