@@ -158,7 +158,7 @@ export function VSL() {
                     }}
                   >
                     <div style={{ fontWeight: 700, fontSize: "1.3rem", lineHeight: 1.2 }}>
-                      Jabonería Artesanal: De Cero a Emprendedora
+                      Alma De Cera Artesanal: De Cero a Emprendedora
                     </div>
                     <div style={{ fontSize: "0.85rem", opacity: 0.85, marginTop: 4, fontFamily: "var(--font-body)" }}>
                       Haz clic para reproducir · Duración: ~5 min
