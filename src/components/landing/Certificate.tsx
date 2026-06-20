@@ -32,13 +32,7 @@ export function Certificate() {
             />
           </SectionReveal>
           <SectionReveal>
-          <span
-            className="inline-block rounded-full px-4 py-2 text-xs font-bold"
-            style={{ background: "var(--celeste-pastel)", color: "var(--texto-dark)", fontFamily: "var(--font-body)" }}
-          >
-            🏆 Reconocimiento oficial
-          </span>
-          <h2
+            <h2
             className="mt-4 text-3xl md:text-4xl"
             style={{ fontFamily: "var(--font-display)", color: "var(--texto-dark)", fontWeight: 700 }}
           >
