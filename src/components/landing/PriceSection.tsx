@@ -9,6 +9,12 @@ export function PriceSection() {
       style={{ background: "linear-gradient(135deg, #FFF0F6 0%, #F3ECFF 100%)" }}
     >
       <SectionReveal className="mx-auto max-w-5xl px-5 text-center">
+        <h2
+          className="mb-10 text-3xl"
+          style={{ fontFamily: "var(--font-display)", color: "var(--morado-medio)", fontWeight: 700 }}
+        >
+          Conoce a tu profesora y guía en este maravilloso recorrido 🎓
+        </h2>
         <img
           src={IMG.precio}
           alt="Precio del curso"
