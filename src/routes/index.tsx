@@ -11,7 +11,7 @@ import { ModulesAccordion } from "../components/landing/ModulesAccordion";
 import { PriceSection } from "../components/landing/PriceSection";
 import { Certificate } from "../components/landing/Certificate";
 import { Testimonials } from "../components/landing/Testimonials";
-import { UrgencyCTA } from "../components/landing/UrgencyCTA";
+
 import { Guarantee } from "../components/landing/Guarantee";
 import { FAQ } from "../components/landing/FAQ";
 import { FinalCTA } from "../components/landing/FinalCTA";
@@ -56,10 +56,9 @@ function Index() {
         <PriceSection />
         <Certificate />
         <Testimonials />
-        <UrgencyCTA />
+        <FinalCTA />
         <Guarantee />
         <FAQ />
-        <FinalCTA />
       </main>
       <Footer />
     </div>
