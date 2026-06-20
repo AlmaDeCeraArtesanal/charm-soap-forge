@@ -74,7 +74,7 @@ export function Bonuses() {
             Todo esto incluido en un solo pago. Sin mensualidades.
           </p>
           <div className="mt-5">
-            <CTAButton size="lg">¡Quiero los bonos ahora!</CTAButton>
+            <CTAButton size="lg">¡QUIERO LOS BONOS AHORA!</CTAButton>
           </div>
         </div>
       </SectionReveal>
