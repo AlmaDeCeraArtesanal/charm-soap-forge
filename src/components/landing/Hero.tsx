@@ -18,7 +18,7 @@ export function Hero() {
             className="inline-block animate-pulse rounded-full px-4 py-2 text-xs font-bold text-white"
             style={{ background: "var(--cta-gradient)", fontFamily: "var(--font-body)" }}
           >
-            🔥 ¡50% de descuento por tiempo limitado!
+            🔥 ¡65% de descuento por tiempo limitado!
           </span>
           <h1
             className="mt-5 text-4xl leading-tight md:text-[3.5rem] md:leading-[1.1]"

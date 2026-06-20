@@ -27,9 +27,9 @@ export function FinalCTA() {
           <CTAButton size="xl">COMIENZA AHORA — HAZ CLIC AQUÍ</CTAButton>
         </div>
         <p className="mt-5" style={{ fontFamily: "var(--font-body)" }}>
-          <span className="text-sm line-through" style={{ color: "var(--texto-mid)" }}>$197 USD</span>{" "}
+          <span className="text-sm line-through" style={{ color: "var(--texto-mid)" }}>$100 USD</span>{" "}
           <span className="ml-2 text-2xl font-bold" style={{ color: "var(--morado-medio)", fontFamily: "var(--font-display)" }}>
-            $97 USD
+            $35 USD
           </span>
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3" style={{ fontFamily: "var(--font-body)" }}>
