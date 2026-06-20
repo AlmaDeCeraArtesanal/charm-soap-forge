@@ -26,7 +26,7 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
         <a href="#inicio" className="flex items-center gap-2" style={{ fontFamily: "var(--font-display)", color: "var(--texto-dark)" }}>
           <span className="text-2xl">🧼</span>
-          <span className="text-lg font-bold">Jabonería Artesanal</span>
+          <span className="text-lg font-bold">Alma De Cera Artesanal</span>
         </a>
         <nav className="hidden items-center gap-7 md:flex" style={{ fontFamily: "var(--font-body)" }}>
           {links.map((l) => (

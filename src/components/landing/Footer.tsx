@@ -13,7 +13,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-5 py-12 text-center md:flex-row md:justify-between md:text-left">
         <div className="flex items-center gap-2" style={{ fontFamily: "var(--font-display)" }}>
           <span className="text-2xl">🧼</span>
-          <span className="text-lg font-bold">Jabonería Artesanal</span>
+          <span className="text-lg font-bold">Alma De Cera Artesanal</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-5" style={{ fontFamily: "var(--font-body)" }}>
           {links.map((l) => (
@@ -34,7 +34,7 @@ export function Footer() {
         className="border-t px-5 py-5 text-center text-xs"
         style={{ borderColor: "rgba(255,255,255,0.1)", color: "var(--rosa-pastel)", fontFamily: "var(--font-body)" }}
       >
-        © 2026 Jabonería Artesanal — Academia Digital. Todos los derechos reservados.
+        © 2026 Alma De Cera Artesanal — Academia Digital. Todos los derechos reservados.
       </div>
     </footer>
   );
