@@ -1,6 +1,6 @@
 import { Blob } from "./Blob";
 import { CTAButton } from "./CTAButton";
-import { IMG } from "./constants";
+
 
 export function Hero() {
   return (
