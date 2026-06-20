@@ -20,7 +20,10 @@ export function UrgencyCTA() {
           ¿Estás lista para empezar tu negocio de jabones artesanales?
         </h2>
         <div className="mt-6">
-          <CTAButton size="xl">COMIENZA AHORA — HAZ CLIC AQUÍ</CTAButton>
+          <CTAButton size="xl">
+            ¡COMIENZA AHORA!<br />
+            HAZ CLIC AQUÍ
+          </CTAButton>
         </div>
         <p className="mt-4 text-sm" style={{ color: "var(--texto-mid)", fontFamily: "var(--font-body)" }}>
           Inscripción disponible hoy · Precio especial por tiempo limitado

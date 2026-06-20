@@ -24,7 +24,10 @@ export function FinalCTA() {
           Cientos de mujeres ya tomaron la decisión. Hoy puede ser el primer día de tu nueva historia.
         </p>
         <div className="mt-8">
-          <CTAButton size="xl">COMIENZA AHORA — HAZ CLIC AQUÍ</CTAButton>
+          <CTAButton size="xl">
+            ¡COMIENZA AHORA!<br />
+            HAZ CLIC AQUÍ
+          </CTAButton>
         </div>
         <p className="mt-5" style={{ fontFamily: "var(--font-body)" }}>
           <span className="text-sm line-through" style={{ color: "var(--texto-mid)" }}>$100 USD</span>{" "}
