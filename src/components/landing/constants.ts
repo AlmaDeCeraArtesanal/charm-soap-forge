@@ -1,4 +1,4 @@
-export const HOTMART_URL = "https://pay.hotmart.com/N100915799Q?checkoutMode=10";
+export const HOTMART_URL = "https://go.hotmart.com/V106361934R?ap=724a";
 
 export const IMG = {
   hero1: "https://d1yei2z3i6k35z.cloudfront.net/14677855/68eeaf6238c1e_Capturadepantalla_14-10-2025_151429_www.canva.com.jpeg",
