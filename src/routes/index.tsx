@@ -52,8 +52,8 @@ function Index() {
         <CourseContent />
         <PriceBanner />
         <Bonuses />
-        <PriceSection />
         <ModulesAccordion />
+        <PriceSection />
         <Certificate />
         <Testimonials />
         <FinalCTA />
