@@ -1,6 +1,7 @@
 import { CTAButton } from "./CTAButton";
-import { IMG } from "./constants";
 import { SectionReveal } from "./SectionReveal";
+import ofertaImg from "@/assets/oferta-completa.webp.asset.json";
+
 
 export function PriceSection() {
   return (
@@ -16,29 +17,13 @@ export function PriceSection() {
           Conoce a tu profesora y guía en este maravilloso recorrido 🎓
         </h2>
         <img
-          src={IMG.precio}
-          alt="Precio del curso"
+          src={ofertaImg.url}
+          alt="Oferta completa del curso"
           loading="lazy"
-          className="mx-auto w-full rounded-[20px]"
+          className="mx-auto w-full rounded-3xl"
           style={{ boxShadow: "var(--card-shadow)" }}
         />
-        <div
-          className="mx-auto mt-8 max-w-md rounded-[24px] bg-white px-8 py-8"
-          style={{ boxShadow: "var(--card-shadow)" }}
-        >
-          <p className="text-sm line-through" style={{ color: "var(--texto-mid)", fontFamily: "var(--font-body)" }}>
-            Antes $100 USD
-          </p>
-          <p
-            className="mt-1 text-5xl"
-            style={{ fontFamily: "var(--font-display)", color: "var(--morado-medio)", fontWeight: 700 }}
-          >
-            $35 USD
-          </p>
-          <p className="mt-3 text-sm" style={{ color: "var(--texto-mid)", fontFamily: "var(--font-body)" }}>
-            Pago único · Sin mensualidades · Acceso de por vida
-          </p>
-        </div>
+
         <div className="mt-8">
           <CTAButton size="xl">
             ¡COMIENZA AHORA!<br />
