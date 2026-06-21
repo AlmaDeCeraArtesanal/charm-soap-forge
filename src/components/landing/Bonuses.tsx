@@ -1,12 +1,16 @@
 import { CTAButton } from "./CTAButton";
-import { IMG } from "./constants";
 import { SectionReveal } from "./SectionReveal";
+import bono1 from "@/assets/bono1.webp.asset.json";
+import bono2 from "@/assets/bono2.webp.asset.json";
+import bono3 from "@/assets/bono3.webp.asset.json";
+import bono4 from "@/assets/bono4.webp.asset.json";
+import bono5 from "@/assets/bono5.webp.asset.json";
 
 const bonos = [
-  { n: 1, src: IMG.bono1 },
-  { n: 2, src: IMG.bono2 },
-  { n: 3, src: IMG.bono3 },
-  { n: 4, src: IMG.bono4 },
+  { n: 1, src: bono1.url },
+  { n: 2, src: bono2.url },
+  { n: 3, src: bono3.url },
+  { n: 4, src: bono4.url },
 ];
 
 export function Bonuses() {
@@ -36,7 +40,7 @@ export function Bonuses() {
           {bonos.map(({ n, src }) => (
             <div
               key={n}
-              className="relative overflow-hidden rounded-[20px] bg-white"
+              className="relative overflow-hidden rounded-3xl bg-white"
               style={{ boxShadow: "var(--card-shadow)" }}
             >
               <span
@@ -45,13 +49,13 @@ export function Bonuses() {
               >
                 BONO #{n}
               </span>
-              <img src={src} alt={`Bono ${n}`} loading="lazy" className="w-full" />
+              <img src={src} alt={`Bono ${n}`} loading="lazy" className="w-full rounded-3xl" />
             </div>
           ))}
         </div>
 
         <div
-          className="relative mt-6 overflow-hidden rounded-[20px] bg-white"
+          className="relative mt-6 overflow-hidden rounded-3xl bg-white"
           style={{ boxShadow: "var(--card-shadow)" }}
         >
           <span
@@ -60,7 +64,7 @@ export function Bonuses() {
           >
             BONO #5
           </span>
-          <img src={IMG.bono5} alt="Bono 5 destacado" loading="lazy" className="w-full" />
+          <img src={bono5.url} alt="Bono 5 destacado" loading="lazy" className="w-full rounded-3xl" />
         </div>
 
         <div
