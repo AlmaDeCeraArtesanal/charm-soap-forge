@@ -1,5 +1,6 @@
-import { IMG } from "./constants";
 import { SectionReveal } from "./SectionReveal";
+import grid1 from "@/assets/jabones-grid-1.png.asset.json";
+import grid2 from "@/assets/jabones-grid-2.png.asset.json";
 
 export function CourseContent() {
   return (
@@ -18,17 +19,23 @@ export function CourseContent() {
           En nuestro curso encontrarás...
         </h2>
         <div className="mt-10 grid gap-8 md:grid-cols-2">
-          {[IMG.content1, IMG.content2].map((src, i) => (
-            <div key={src} className="overflow-hidden rounded-[24px] bg-white transition-transform duration-300 hover:scale-[1.02]" style={{ boxShadow: "var(--card-shadow)" }}>
-              <img src={src} alt={`Contenido del curso ${i + 1}`} loading="lazy" className="w-full" />
+          {[grid1.url, grid2.url].map((src, i) => (
+            <div key={src} className="overflow-hidden rounded-3xl bg-white transition-transform duration-300 hover:scale-[1.02]" style={{ boxShadow: "var(--card-shadow)" }}>
+              <img src={src} alt={`Tipos de jabones artesanales ${i + 1}`} loading="lazy" className="w-full rounded-3xl" />
             </div>
           ))}
         </div>
         <p
-          className="mt-8 text-xl"
-          style={{ fontFamily: "var(--font-display)", color: "var(--morado-medio)", fontWeight: 600 }}
+          className="mt-10 inline-block rounded-full px-8 py-4 text-2xl md:text-3xl"
+          style={{
+            fontFamily: "var(--font-display)",
+            color: "white",
+            fontWeight: 800,
+            background: "linear-gradient(135deg, var(--morado-medio), var(--celeste-pastel))",
+            boxShadow: "var(--card-shadow)",
+          }}
         >
-          y mucho más...
+          ✨ ¡y mucho más! ✨
         </p>
       </SectionReveal>
     </section>
