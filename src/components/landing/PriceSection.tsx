@@ -1,6 +1,6 @@
 import { CTAButton } from "./CTAButton";
-import { IMG } from "./constants";
 import { SectionReveal } from "./SectionReveal";
+import ofertaImg from "@/assets/oferta-65.jpg.asset.json";
 
 export function PriceSection() {
   return (
@@ -16,11 +16,11 @@ export function PriceSection() {
           Conoce a tu profesora y guía en este maravilloso recorrido 🎓
         </h2>
         <img
-          src={IMG.precio}
-          alt="Precio del curso"
+          src={ofertaImg.url}
+          alt="Oferta completa: Hoy 65% de descuento — Valor total $100 USD, solo por hoy $35 USD"
           loading="lazy"
-          className="mx-auto w-full rounded-[20px]"
-          style={{ boxShadow: "var(--card-shadow)" }}
+          className="mx-auto w-full"
+          style={{ boxShadow: "var(--card-shadow)", borderRadius: "16px" }}
         />
         <div
           className="mx-auto mt-8 max-w-md rounded-[24px] bg-white px-8 py-8"
