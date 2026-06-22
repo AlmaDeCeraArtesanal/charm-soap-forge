@@ -50,9 +50,9 @@ function Index() {
         <NarrativeIntro />
         <ForYou />
         <CourseContent />
-        <PriceBanner />
-        <Bonuses />
         <ModulesAccordion />
+        <Bonuses />
+        <PriceBanner />
         <PriceSection />
         <Certificate />
         <Testimonials />
