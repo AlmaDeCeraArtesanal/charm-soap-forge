@@ -1,6 +1,6 @@
 import { CTAButton } from "./CTAButton";
-import { IMG } from "./constants";
 import { SectionReveal } from "./SectionReveal";
+import ofertaImg from "@/assets/oferta-65-v2.jpg.asset.json";
 
 export function PriceBanner() {
   return (
@@ -16,8 +16,8 @@ export function PriceBanner() {
           🔥 PRECIO ESPECIAL
         </span>
         <img
-          src={IMG.inscripciones}
-          alt="Inscripciones abiertas"
+          src={ofertaImg.url}
+          alt="Hoy 65% de descuento - Valor total $100 USD por solo $35 USD"
           loading="lazy"
           className="mx-auto mt-6 w-full rounded-[20px]"
           style={{ boxShadow: "var(--card-shadow)" }}
