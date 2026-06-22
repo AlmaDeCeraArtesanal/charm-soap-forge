@@ -82,7 +82,7 @@ const palette = ["var(--rosa-pastel)", "var(--morado-pastel)", "var(--celeste-pa
 export function ModulesAccordion() {
   const [open, setOpen] = useState<number | null>(0);
   return (
-    <section id="modulos" className="py-20 md:py-24" style={{ background: "var(--bg-celeste)" }}>
+    <section id="modulos" className="py-20 md:py-24" style={{ background: "var(--bg-verde-pastel)" }}>
       <SectionReveal className="mx-auto max-w-[860px] px-5 text-center">
         <span
           className="inline-block rounded-full px-4 py-2 text-xs font-bold"
